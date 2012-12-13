@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        width="400" height="400">
+
+  <label value="debugger.xul"/>
+
+  <keyset>
+    <key key="T" modifiers="accel" oncommand="alert(42)"/>
+  </keyset>
+
+  <toolbar><textbox/><label value="Accel+T -> alert(42)"/></toolbar>
+  <iframe flex="1" src="about:config"/>
+</window>

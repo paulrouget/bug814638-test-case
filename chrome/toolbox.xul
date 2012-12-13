@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        width="400" height="400">
+
+  <label value="toolbox.xul"/>
+  <button id="swap" label="swap"/>
+  <iframe flex="1" src="debugger.xul"/>
+
+</window>
